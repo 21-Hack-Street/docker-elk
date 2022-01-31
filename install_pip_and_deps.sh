@@ -13,7 +13,7 @@ if [ $? -gt 0 ]; then
     echo "Moving pip's scripts into /usr/local/bin"
     sudo mv "$HOME/.local/bin/pip" \
 	    "$HOME/.local/bin/pip3" \
-	    "$HOME/.local/bin/pip3.9.2" \
+	    "$HOME/.local/bin/pip3.9" \
 	    "/usr/local/bin/"
 fi
 echo 'install tweepy json elasticsearch package'
